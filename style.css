@@ -1,0 +1,17 @@
+body{
+    font-size: 16px;
+}
+
+/* FLEX CONTAINER CSS */
+
+.flex-container {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
+@media (max-width: 386px) {
+    .flex-container {
+        display:none;
+    }
+}
